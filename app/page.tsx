@@ -72,7 +72,7 @@ export default function ChaseCoin() {
               GOOSE CHASE ON SOL
             </h1>
             <p className="text-xl text-black mb-8">
-              CA: xxxxxxxxxxxxxxxxxxxxxxx
+              CA: GVWwA2YZQNoCFYMUcmEA5ZvaBwW5tChGvZbaB47Kpump
               <br />
               <nav className="flex items-center justify-center gap-4 mt-2">
                 <a href="https://t.me/GooseChasePORTAL" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-orange-500">
