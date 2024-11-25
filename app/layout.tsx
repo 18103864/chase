@@ -8,8 +8,8 @@ const chewy = Chewy({
 })
 
 export const metadata = {
-  title: '$CHASE - The Token That Never Stops Chasing',
-  description: 'Get ready to run - $CHASE is coming for you!',
+  title: '$CHASE',
+  description: 'HONK HONK',
 }
 
 export default function RootLayout({

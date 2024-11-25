@@ -43,7 +43,7 @@ export default function LoadingScreen({ onLoadingComplete }: { onLoadingComplete
         </video>
       </div>
       <div className="text-center">
-        <p className="text-2xl text-black mb-2">Chasing goose...</p>
+        <p className="text-2xl text-black mb-2">HONK HONK!!!!</p>
         <p className="text-3xl font-bold text-orange-500">{percentage}%</p>
       </div>
     </div>
