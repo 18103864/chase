@@ -129,10 +129,10 @@ export default function ChaseCoin() {
                     className="bg-white text-black p-6 rounded-xl max-w-2xl mx-auto shadow-md"
                   >
                     <h3 className="text-3xl text-orange-500 mb-4">
-                      SPOILER: IT'S $CHASE TOKENS
+                      SPOILER: ITS $CHASE TOKENS
                     </h3>
                     <p className="text-xl">
-                      The goose knows you're holding. The goose always knows. 👀
+                      The goose knows you are holding. The goose always knows. 👀
                     </p>
                   </motion.div>
                 )}
