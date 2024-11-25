@@ -53,7 +53,7 @@ export default function ChaseCoin() {
           </header>
 
 
-          {/* Hero Section */}
+          {/* Hero Sectionn */}
           <section className="container mx-auto px-4 py-12 text-center relative">
             <motion.div
               animate={{ x: isChasing ? [0, -10, 10, -10, 10, 0] : 0 }}
