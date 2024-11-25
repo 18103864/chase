@@ -8,6 +8,9 @@ import LoadingScreen from '../components/LoadingScreen'
 import banner from '@/public/images/banner.jpg'
 import bigmeme from '@/public/images/bigmeme.jpg'
 import anatomy from '@/public/images/anatomy.jpg'
+import pump from '@/public/images/meme1.jpg'
+import bro from '@/public/images/meme2.jpg'
+import dev from '@/public/images/meme3.jpg'
 
 
 export default function ChaseCoin() {
@@ -30,14 +33,16 @@ export default function ChaseCoin() {
     setShowJacketQuestion(true)
   }
 
-  // const memes = [
-  //   { src: "/placeholder.svg?height=300&width=300", alt: "Goose with sunglasses", caption: "Deal with it, I'm a $CHASE goose" },
-  //   { src: "/placeholder.svg?height=300&width=300", alt: "Goose chasing person", caption: "When you forget to buy $CHASE" },
-  //   { src: "/placeholder.svg?height=300&width=300", alt: "Goose looking at crypto charts", caption: "Analyzing $CHASE market trends" },
-  //   { src: "/placeholder.svg?height=300&width=300", alt: "Goose in a suit", caption: "$CHASE CEO announcing new partnerships" },
-  //   { src: "/placeholder.svg?height=300&width=300", alt: "Goose with a megaphone", caption: "HONK if you love $CHASE!" },
-  //   { src: "/placeholder.svg?height=300&width=300", alt: "Goose doing yoga", caption: "Staying flexible in the $CHASE market" }
-  // ]
+  const memes = [
+    { src: pump, alt: "livestream", caption: "PumpFun Livestreams are moderated?" },
+    { src: bro, alt: "bro", caption: "It is on Bro" },
+    { src: dev, alt: "dev should code", caption: "Devs must code!" },
+    // { src: "/placeholder.svg?height=300&width=300", alt: "Goose chasing person", caption: "When you forget to buy $CHASE" },
+    // { src: "/placeholder.svg?height=300&width=300", alt: "Goose looking at crypto charts", caption: "Analyzing $CHASE market trends" },
+    // { src: "/placeholder.svg?height=300&width=300", alt: "Goose in a suit", caption: "$CHASE CEO announcing new partnerships" },
+    // { src: "/placeholder.svg?height=300&width=300", alt: "Goose with a megaphone", caption: "HONK if you love $CHASE!" },
+    // { src: "/placeholder.svg?height=300&width=300", alt: "Goose doing yoga", caption: "Staying flexible in the $CHASE market" }
+  ]
 
   return (
     <>
@@ -189,11 +194,11 @@ export default function ChaseCoin() {
               <h2 className="text-6xl md:text-7xl text-black mb-8">
                 GOOSE MEMES
               </h2>
-              {/* <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
                 {memes.map((meme, i) => (
                   <motion.div
                     key={i}
-                    className="bg-white p-4 rounded-xl shadow-lg border-2 border-black"
+                    className="bg-white p-4 rounded-xl shadow-lg border-2 border-black w-full h-full"
                     whileHover={{ scale: 1.05 }}
                   >
                     <Image 
@@ -201,12 +206,12 @@ export default function ChaseCoin() {
                       alt={meme.alt}
                       width={300}
                       height={300}
-                      className="mx-auto mb-4 rounded-lg"
+                      className="mx-auto mb-4 rounded-lg w-full h-full"
                     />
-                    <p className="text-xl text-orange-500">{meme.caption}</p>
+                    {/* <p className="text-xl text-orange-500">{meme.caption}</p> */}
                   </motion.div>
                 ))}
-              </div> */}
+              </div>
             </motion.div>
           </section>
 
