@@ -80,12 +80,12 @@ export default function ChaseCoin() {
             </motion.div>
             
             <h1 className="text-5xl md:text-7xl text-black mb-4 leading-tight">
-              $CHASE: WHERE HODLING MEETS CARDIO
+              GOOSE CHASE ON SOL
             </h1>
             <p className="text-xl text-black mb-8">
                 CA: xxxxxxxxxxxxxxxxxxxxxxx
               <br />
-              (Running is futile, the goose will always chase)
+              HONK HONK!
             </p>
 
             <motion.button
@@ -120,7 +120,7 @@ export default function ChaseCoin() {
             >
               <Image 
                 src={bigmeme}
-                alt="What's in the jacket?"
+                alt="Do you have a bag of $CHASE anon?"
                 width={800}
                 height={400}
                 className="mx-auto mb-8 rounded-lg shadow-lg"
@@ -134,7 +134,7 @@ export default function ChaseCoin() {
                     className="bg-white text-black p-6 rounded-xl max-w-2xl mx-auto shadow-md"
                   >
                     <h3 className="text-3xl text-orange-500 mb-4">
-                      SPOILER: ITS $CHASE TOKENS
+                      WHY DON'T YOU HAVE A BAG OF $CHASE ANON!?
                     </h3>
                     <p className="text-xl">
                       The goose knows you are holding. The goose always knows. 👀
@@ -148,7 +148,7 @@ export default function ChaseCoin() {
           {/* Goose Anatomy Section */}
           <section className="container mx-auto px-4 py-12 text-center">
             <h2 className="text-4xl md:text-5xl text-black mb-8">
-              KNOW YOUR ENEMY: ANATOMY OF A $CHASE GOOSE
+              GOOSE CHASE ON SOL
             </h2>
             <div className="relative inline-block">
               <Image 
@@ -167,7 +167,7 @@ export default function ChaseCoin() {
               </motion.div>
             </div>
             <p className="text-xl text-black mb-8">
-              Warning: $CHASE geese are evolving. They now come equipped with laser eyes and rocket-powered chaos flippers.
+              Warning: HONK HONK!
             </p>
           </section>
 
@@ -175,11 +175,8 @@ export default function ChaseCoin() {
           <section className="container mx-auto px-4 py-12 text-center">
             <div className="max-w-4xl mx-auto bg-black p-8 rounded-2xl shadow-lg text-white">
               <h2 className="text-3xl md:text-4xl mb-6">
-                JOIN THE $CHASE: WHERE EVERY DAY IS LEG DAY AND EVERY INVESTMENT IS A WILD GOOSE CHASE!
+                JOIN THE $CHASE!
               </h2>
-              <p className="text-xl">
-                Don&apos;t be a sitting duck - grab your $CHASE before it grabs you!
-              </p>
             </div>
           </section>
 
